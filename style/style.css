@@ -1,0 +1,98 @@
+
+header{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+    border-bottom: solid;
+    border-top: solid;
+    text-shadow: steelblue;
+}
+
+#ftr{
+    border: solid;
+    background-color: rgb(128, 226, 197);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+  }
+
+#menu{
+    padding: 20px;
+}
+.log_o{
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.Tab_1{
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.Tab_2{
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.Tab_3{
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+    background-color: azure;
+}
+
+:hover.Tab_1{
+    background-color: cornflowerblue;
+}
+
+:hover.Tab_2{
+    background-color: cornflowerblue;
+}
+
+:hover.Tab_3{
+    background-color: cornflowerblue;
+}
+
+#input-wrapper{
+    padding: 50px;
+    border: solid cadetblue;
+    
+
+}
+
+form.form-eg{
+    display: table;
+}
+
+div.form-eg{
+    display: table-row;
+}
+
+label, input{
+    display: table-cell;
+    margin: 10px;
+}
+
+label{
+    padding-right: 10px;
+}
+
+#ene{
+    font-size: large;
+    font-weight: bold;
+    background-color: blueviolet;
+}
