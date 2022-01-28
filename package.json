@@ -4,7 +4,9 @@
   "description": "22-Jan-22\r --------------\r This projects creates a simple social networking - messaging apps\r prototypes, one using jQuery and another using React.js.",
   "main": "fibonacci.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint",
+    "dev": "nodemon p_001.js",
+    "eslint.autoRun": "false"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/xcogit-5/html-css-javascript/issues"
   },
-  "homepage": "https://github.com/xcogit-5/html-css-javascript#readme"
+  "homepage": "https://github.com/xcogit-5/html-css-javascript#readme",
+  "devDependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  }
 }
