@@ -4,4 +4,6 @@ node_modules
 #ignore .vscode
 .vscode
 
+#ignore .gitpod.yml
+.gitpod.yml
 
