@@ -7,3 +7,5 @@ node_modules
 #ignore .gitpod.yml
 .gitpod.yml
 
+#ignore .idea
+.idea
