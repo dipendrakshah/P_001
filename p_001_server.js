@@ -1,23 +1,16 @@
 const express = require('express')
 const {engine} = require('express-handlebars')
+const handlers = require('./lib/handlers')
 
 const app = express()
 
 const port = process.env.PORT || 3015
 
-app.set('view engine','handlebars')
+app.get('/',handlers.index)
 
-app.get('/',handlebars.index)
+app.get('/form',handlers.form)
 
-app.get('/form',handlebars.form)
-
-app.get('/', (req, res) => res.render('home'))
-
-app.engine('handlebars',engine({defaultLayout: 'home'}))
-
-app.get('/',(req, res) => {
-    res.send('Hello World!')
-})
+app.engine('handlebars',engine({defaultLayout: 'main'}))
 
 app.listen(port, () => {
     console.log(`Server started on http://localhost:${port}`+
