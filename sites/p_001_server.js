@@ -17,7 +17,7 @@ app.set('view engine', 'handlebars')
 
 //app.get('/', handlebars.index)
 
-//app.get('/form', handlebars.form)
+app.get('/about', handlebars.form)
 
 app.get('/', (req, res) => res.render('index'))
 
