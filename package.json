@@ -2,12 +2,10 @@
   "name": "p_001",
   "version": "1.0.0",
   "description": "22-Jan-22\r --------------\r This projects creates a simple social networking - messaging apps\r prototypes, one using jQuery and another using React.js.",
-  "main": "fibonacci.js",
-  "scripts": {
-    "test": "eslint",
-    "dev": "nodemon p_001.js",
-    "eslint.autoRun": "false"
-  },
+  "main": "p_001_server.js",
+  "scripts": {    
+    "dev": "nodemon p_001.js"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xcogit-5/html-css-javascript.git"
