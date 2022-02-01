@@ -14,3 +14,5 @@ Requirements:
 • Adding members as friends
 • Public and private messaging between members
 • Styling the project
+
+<h1><b>&copy; messaEg</h1></b>
