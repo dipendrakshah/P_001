@@ -15,7 +15,7 @@ Requirements:
 • Public and private messaging between members<br>
 • Styling the project<br>
 
-<h3>Tools used</h3>
+Tools used
 -------------------------
 <code>Express.js</code> for server side renderer (<a href="\server-side">ServerSide</a>)<br>
 <code>React.js</code> for SPA or client sider (<a href="\client-side">ClientSide</a>)<br>
