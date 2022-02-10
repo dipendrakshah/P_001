@@ -1,2 +1,8 @@
 #ignore gitpod yml 
 .gitpod.yml
+
+#igonore node_modules
+node_modules
+
+#ignore .vscode
+.vscode
